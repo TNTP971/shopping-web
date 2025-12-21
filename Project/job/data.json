@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "chuột gaming Viper V2 Pro",
+    "price": 3775000,
+    "sale-price": 3500000,
+    "banner": "image/id/id1/chuot-gaming-khong-day-razer-viper-v2-pro-02.webp",
+    "images": [
+      "image/id/id1/chuot-gaming-khong-day-razer-viper-v2-pro-02.webp",
+      "image/id/id1/chuot-gaming-khong-day-razer-viper-v2-pro-white-rz01-04390200-r3a1.webp",
+      "image/id/id1/Chuot-Razer-Viper-V2-Pro-1.jpg"
+    ],
+    "weight": "200g",
+    "chipset": "PixArt PAW3335",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM Cortex M0",
+    "connectivity": "Wireless 2.4GHz / Bluetooth 5.0 / Wired USB",
+    "colors": ["Black", "White", "Red"]
+  },
+  {
+    "id": 2,
+    "name": "chuột gaming Logitech G Pro X Superlight",
+    "price": 3490000,
+    "sale-price": 3290000,
+    "banner": "image/id/id2/chuot-gaming-logitech-pro-x-superlight-2-lightspeed-7.webp",
+    "images": [
+      "image/id/id2/chuot-gaming-logitech-pro-x-superlight-2-lightspeed-7.webp",
+      "image/id/id2/1_81fcd168337f4753b00f14e761806a93_accbc40c9e3140a2a6a18cace29cb11a.png",
+      "image/id/id2/g-pro-x-superlight-wireless-black-666_83650815ce2e486f9108dbbb17c29159_1450bb4a9bd34dcb92fc77f627eb600d.jpg"
+    ],
+    "weight": "63g",
+    "chipset": "HERO 25K",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless Lightspeed / Wired USB",
+    "colors": ["Black", "White", "Magenta"]
+  },
+  {
+    "id": 3,
+    "name": "chuột gaming SteelSeries Aerox 3 Wireless",
+    "price": 2590000,
+    "sale-price": 2390000,
+    "banner": "image/id/id3/chuot-gaming-khong-day-steelseries-aerox-3-wireless-6.webp",
+    "images": [
+      "image/id/id3/chuot-gaming-khong-day-steelseries-aerox-3-wireless-6.webp",
+      "image/id/id3/chuot-gaming-khong-day-steelseries-aerox-3-wireless.webp",
+      "image/id/id3/thumbchuot_3de1f64977184d72b2d594e4fcad3de9_760393f6d11b4e7d8b3dc4637196970b_master.png"
+    ],
+    "weight": "68g",
+    "chipset": "TrueMove Air",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless 2.4GHz / Bluetooth 5.0 / Wired USB",
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 4,
+    "name": "chuột gaming Razer DeathAdder V3 Pro",
+    "price": 3990000,
+    "sale-price": 3690000,
+    "banner": "image/id/id4/chuot-razer-deathadder-v3-pro.jpg",
+    "images": [
+      "image/id/id4/chuot-razer-deathadder-v3-pro.jpg",
+      "image/id/id4/f7a42cd48b1a7f325af695b3dba_1024x1024_d0730f9347bd45858c1a36aa992b51fb_64e87797e31545279c73ab9f23cf1228.png",
+      "image/id/id4/chuot-gaming-khong-day-razer-deathadder-v3-pro-0a5a68a8-10c5-433d-bece-b49ec8828fc5.webp"
+    ],
+    "weight": "63g",
+    "chipset": "Focus Pro 30K",
+    "speed": "750IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless HyperSpeed / Wired USB",
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 5,
+    "name": "chuột gaming Zowie EC2-CW",
+    "price": 3490000,
+    "sale-price": 3290000,
+    "banner": "image/id/id5/chuot-gaming-zowie-ec2-cw-wireless.jpg",
+    "images": [
+      "image/id/id5/chuot-gaming-zowie-ec2-cw-wireless.jpg",
+      "image/id/id5/chuot-gaming-zowie-ec2-cw-wireless-3.jpg",
+      "image/id/id5/chuot-gaming-zowie-ec2-cw-wireless-1.jpg"
+    ],
+    "weight": "77g",
+    "chipset": "PixArt PAW3370",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless 2.4GHz / Wired USB",
+    "colors": ["Black"]
+  },
+  {
+    "id": 6,
+    "name": "chuột gaming Pulsar X2 Wireless",
+    "price": 2890000,
+    "sale-price": 2590000,
+    "banner": "image/id/id6/chuot-khong-day-pulsar-x2-premium-black.jpg",
+    "images": [
+      "image/id/id6/chuot-khong-day-pulsar-x2-premium-black.jpg",
+      "image/id/id6/chuot-khong-day-pulsar-x2-premium-white.gif",
+      "image/id/id6/chuot-khong-day-pulsar-x2-premium-pink.png"
+    ],
+    "weight": "56g",
+    "chipset": "PixArt PAW3395",
+    "speed": "650IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless 2.4GHz / Wired USB",
+    "colors": ["Black", "White", "Red"]
+  },
+  {
+    "id": 7,
+    "name": "chuột gaming Glorious Model O Wireless",
+    "price": 2490000,
+    "sale-price": 2290000,
+    "banner": "image/id/id7/chuot-khong-day-glorious-model-o-2-matte-black.jpg",
+    "images": [
+      "image/id/id7/chuot-khong-day-glorious-model-o-2-matte-black.jpg",
+      "image/id/id7/chuot-khong-day-glorious-model-o-2-wireless-matte-white.jpg",
+      "image/id/id7/chuot-gaming-khong-day-glorious-model-o-wireless.webp"
+    ],
+    "weight": "69g",
+    "chipset": "BAMF Sensor",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless 2.4GHz / Wired USB",
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 8,
+    "name": "chuột gaming Logitech G502 X Plus",
+    "price": 4190000,
+    "sale-price": 3890000,
+    "banner": "image/id/id8/gitech-g502-x-plus-lightspeed-black-1_26668b3e1dd648deaa4e2b1cc34d563c_5ee8ca766c754bec988827d9af9f29f1_master.jpg",
+    "images": [
+      "image/id/id8/gitech-g502-x-plus-lightspeed-black-1_26668b3e1dd648deaa4e2b1cc34d563c_5ee8ca766c754bec988827d9af9f29f1_master.jpg",
+      "image/id/id8/g502x-plus-gallery-2-white_69229c9ba5534ad5bfae7d827037a28f_365394a31b6342e4949249099adb755e_master.png",
+      "image/id/id8/chuot-logitech-g502-x-plus-wireless-1.jpg"
+    ],
+    "weight": "106g",
+    "chipset": "HERO 25K",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless Lightspeed / Bluetooth / Wired USB",
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 9,
+    "name": "chuột gaming Cooler Master MM712 Wireless",
+    "price": 1990000,
+    "sale-price": 1790000,
+    "banner": "image/id/id9/chuot-gaming-cooler-master-mm712-hybird-wireless-white.jpg",
+    "images": [
+      "image/id/id9/chuot-gaming-cooler-master-mm712-hybird-wireless-white.jpg",
+      "image/id/id9/chuot-gaming-cooler-master-mm712-hybird-wireless-black.jpg",
+      "image/id/id9/chuot-gaming-cooler-master-mm712-hybird-wireless-black-3.jpg"
+    ],
+    "weight": "59g",
+    "chipset": "PixArt PAW3370",
+    "speed": "400IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless 2.4GHz / Bluetooth / Wired USB",
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 10,
+    "name": "chuột gaming ASUS ROG Harpe Ace",
+    "price": 3790000,
+    "sale-price": 3490000,
+    "banner": "image/id/id11/chuot-gaming-asus-rog-harpe-ace-extreme.jpg",
+    "images": [
+      "image/id/id11/chuot-gaming-asus-rog-harpe-ace-extreme.jpg",
+      "image/id/id11/chuot-gaming-asus-rog-harpe-ace-extreme-3.jpg",
+      "image/id/id11/chuot-gaming-asus-rog-harpe-ace-extreme-5.jpg"
+    ],
+    "weight": "54g",
+    "chipset": "AimPoint 36K",
+    "speed": "650IPS",
+    "MCU": "32-bit ARM",
+    "connectivity": "Wireless 2.4GHz / Bluetooth / Wired USB",
+    "colors": ["Black", "White"]
+  }
+
+]

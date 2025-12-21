@@ -1,0 +1,49 @@
+/*
+==================================================
+  CART/CHECKOUT STYLES
+==================================================
+*/
+.cart-table {
+    text-align: center;
+}
+
+.cart-table th, .cart-table td {
+    vertical-align: middle;
+}
+
+.cart-table .form-control {
+    max-width: 80px;
+    text-align: center;
+}
+
+.checkout-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #fff;
+}
+
+.checkout-card .btn-primary {
+    background-color: #0071e3;
+    border-color: #0071e3;
+    font-weight: 500;
+    border-radius: 980px;
+    padding: 12px;
+    transition: background-color 0.3s;
+}
+
+.checkout-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.checkout-card .list-group-item strong {
+    font-weight: 700;
+}
+
+.checkout-card h4 {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 101,
+    "name": "Bàn phím Logitech G Pro X TKL",
+    "price": 3490000,
+    "sale-price": 3190000,
+    "brand": "Logitech",
+    "banner": "image/id/id101/ban-phim-co-logitech-pro-x-tkl-rapid-analog-sw-16.webp",
+    "images": [
+      "image/id/id101/ban-phim-co-logitech-pro-x-tkl-rapid-analog-sw-16.webp",
+      "image/id/id101/earvn-ban-phim-logitech-g-pro-x-tkl-light-speed-tactile-switch-white-1_d383291768ef4233b0c2b2491c4f89d0.jpg"
+    ],
+    "layout": "TKL",
+    "switch": "GX Blue",
+    "connection": "USB-C",
+    "led": "RGB"
+  },
+  {
+    "id": 102,
+    "name": "Bàn phím Razer Huntsman Mini",
+    "price": 3290000,
+    "sale-price": 2990000,
+    "brand": "Razer",
+    "banner": "image/id/id102/black.jpg",
+    "images": [
+      "image/id/id102/black.jpg",
+      "image/id/id102/ban-phim-razer-01-white.jpg"
+    ],
+    "layout": "60%",
+    "switch": "Optical Red",
+    "connection": "USB-C",
+    "led": "RGB"
+  },
+  {
+    "id": 103,
+    "name": "Bàn phím Keychron K6 Wireless",
+    "price": 1990000,
+    "sale-price": 1790000,
+    "brand": "Keychron",
+    "banner": "image/id/id103/ban-phim-co-keychron-k6-pro.jpg",
+    "images": [
+      "image/id/id103/ban-phim-co-keychron-k6-pro.jpg",
+      "image/id/id103/keychron-k6-keyboard.jpg"
+    ],
+    "layout": "65%",
+    "switch": "Gateron Brown",
+    "connection": "Bluetooth / USB",
+    "led": "White"
+  },
+  {
+    "id": 104,
+    "name": "Bàn phím Akko 3087 Silent",
+    "price": 1690000,
+    "sale-price": 1490000,
+    "brand": "Akko",
+    "banner": "image/id/id104/3087_silent_800_2.jpg",
+    "images": [
+      "image/id/id104/3087_silent_800_2.jpg",
+      "image/id/id104/AKKO-3087-Silent-01-ava.jpg"
+    ],
+    "layout": "TKL",
+    "switch": "Akko Silent",
+    "connection": "USB",
+    "led": "None"
+  },
+  {
+    "id": 105,
+    "name": "Bàn phím Corsair K70 RGB MK.2",
+    "price": 3990000,
+    "sale-price": 3690000,
+    "brand": "Corsair",
+    "banner": "image/id/id105/black.jpg",
+    "images": [
+      "image/id/id105/black.jpg",
+      "image/id/id105/white.jpg"
+    ],
+    "layout": "Full Size",
+    "switch": "Cherry MX Red",
+    "connection": "USB",
+    "led": "RGB"
+  },
+  {
+    "id": 106,
+    "name": "Bàn phím Ducky One 2 Mini",
+    "price": 2890000,
+    "sale-price": 2590000,
+    "brand": "Ducky",
+    "banner": "image/id/id106/13821_63ae04b0a3cbe_One-2-Pro-Mini-Classic.webp",
+    "images": [
+      "image/id/id106/13821_63ae04b0a3cbe_One-2-Pro-Mini-Classic.webp",
+      "image/id/id106/him-ducky-one-2-mini-rgb-pure-white-4_a2ef08f69b3347609bd2553b422ee2df_6b5ab31ad81b4593b9d4ec44bea3047b.png"
+    ],
+    "layout": "60%",
+    "switch": "Cherry MX Brown",
+    "connection": "USB-C",
+    "led": "RGB"
+  },
+  {
+    "id": 107,
+    "name": "Bàn phím Aula F2088",
+    "price": 890000,
+    "sale-price": 750000,
+    "brand": "Aula",
+    "banner": "image/id/id107/product_500x_d82433be-527c-47f5-ab66-2bb4affb1b58.webp",
+    "images": [
+      "image/id/id107/product_500x_d82433be-527c-47f5-ab66-2bb4affb1b58.webp",
+      "image/id/id107/orange.jpg"
+    ],
+    "layout": "Full Size",
+    "switch": "Blue Switch",
+    "connection": "USB",
+    "led": "RGB"
+  },
+  {
+    "id": 108,
+    "name": "Bàn phím Royal Kludge RK61",
+    "price": 1490000,
+    "sale-price": 1290000,
+    "brand": "RK",
+    "banner": "image/id/id108/black.jpg",
+    "images": [
+      "image/id/id108/black.jpg",
+      "image/id/id108/white.png"
+    ],
+    "layout": "60%",
+    "switch": "Red Switch",
+    "connection": "Bluetooth / USB",
+    "led": "RGB"
+  },
+  {
+    "id": 109,
+    "name": "Bàn phím HyperX Alloy FPS Pro",
+    "price": 2490000,
+    "sale-price": 2190000,
+    "brand": "HyperX",
+    "banner": "image/id/109/black.jpg",
+    "images": [
+      "image/id/109/black.jpg",
+      "image/id/109/white.jpg"
+    ],
+    "layout": "TKL",
+    "switch": "Cherry MX Red",
+    "connection": "USB",
+    "led": "Red"
+  },
+  {
+    "id": 110,
+    "name": "Bàn phím DareU EK87",
+    "price": 990000,
+    "sale-price": 850000,
+    "brand": "DareU",
+    "banner": "image/id/id110/black.jpg",
+    "images": [
+      "image/id/id110/black.jpg",
+      "image/id/id110/white.jpg"
+    ],
+    "layout": "TKL",
+    "switch": "Brown Switch",
+    "connection": "USB",
+    "led": "RGB"
+  }
+]

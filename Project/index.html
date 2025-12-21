@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;507;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="./image/logo_web-01-01.png" alt="Logo" style="width: 130px;">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="./product1.html">Chuột</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Laptop</a></li>
+              <li class="nav-item"><a class="nav-link" href="./product2.html">Bàn phím</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tai nghe</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Nintendo</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Play Station</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Xbox</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tablet</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Watch</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Điện thoại</a></li>
+              <li class="nav-item ms-3"><a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href="./login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      
+      <section id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-content-wrapper">
+              <img src="./image/banner1.jpg" class="d-block w-100" alt="Banner 1 - iPhone 15 Pro Max">
+              <div class="carousel-caption d-md-block text-center">
+                <h2 class="title-large" data-animation="fade-in-up" data-delay="300">iPhone 15 Pro Max</h2>
+                <h3 class="subtitle-large" data-animation="fade-in-up" data-delay="500">Phiên bản Titan. Mạnh mẽ vượt trội.</h3>
+                <div class="action-links" data-animation="fade-in-up" data-delay="700">
+                  <a href="#" class="btn-custom btn-light-overlay">Tìm hiểu thêm</a>
+                  <a href="#" class="btn-custom btn-secondary-light">Mua ngay</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-content-wrapper">
+              <img src="./image/banner2.jpg" class="d-block w-100" alt="Banner 2 - MacBook Air M3">
+              <div class="carousel-caption d-md-block text-center">
+                <h2 class="title-large" data-animation="fade-in-up" data-delay="300">MacBook Air M3</h2>
+                <h3 class="subtitle-large" data-animation="fade-in-up" data-delay="500">Siêu mỏng. Siêu mạnh.</h3>
+                <div class="action-links" data-animation="fade-in-up" data-delay="700">
+                  <a href="#" class="btn-custom btn-light-overlay">Tìm hiểu thêm</a>
+                  <a href="#" class="btn-custom btn-secondary-light">Mua ngay</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-content-wrapper">
+              <img src="./image/banner3.jpg" class="d-block w-100" alt="Banner 3 - Apple Watch Ultra 2">
+              <div class="carousel-caption d-md-block text-center">
+                <h2 class="title-large" data-animation="fade-in-up" data-delay="300">Apple Watch Ultra 2</h2>
+                <h3 class="subtitle-large" data-animation="fade-in-up" data-delay="500">Cuộc phiêu lưu mới đang chờ bạn.</h3>
+                <div class="action-links" data-animation="fade-in-up" data-delay="700">
+                  <a href="#" class="btn-custom btn-light-overlay">Tìm hiểu thêm</a>
+                  <a href="#" class="btn-custom btn-secondary-light">Mua ngay</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      </section>
+      
+      <section class="video-section">
+        <div class="video-wrapper">
+          <div class="video-text-overlay">
+            <h2 class="title-large">PlayStation5</h2>
+            <h3 class="subtitle-large">Bạn nghĩ Ps5 làm được gì</h3>
+            <div class="action-links">
+                <a href="#" class="btn-custom btn-dark-overlay">Xem thêm</a>
+            </div>
+          </div>
+          <video src="./image/PS5 Hardware Reveal Trailer - PlayStation (1080p, h264).mp4" autoplay muted loop></video>
+        </div>
+      </section>
+      
+      <section class="section section-large bg-light-grey">
+        <div class="content">
+          <h2>Nitendo Switch 2</h2>
+          <p class="lead-text">Màu đen. Hiệu năng cao với màn hình 144hz.</p>
+          <a href="#" class="btn-custom">Tìm hiểu thêm</a>
+          <a href="#" class="btn-custom btn-secondary">Mua ngay</a>
+        </div>
+        <img src="./image/NITENDO V2.jpg" alt="Nintendo Switch 2">
+      </section>
+
+      <section class="section section-large bg-light-grey">
+        <div class="content">
+        <h2>X82 ProHe</h2>
+        <p class="lead-text">Tốc độ vượt trội, chiến mọi tựa game.</p>
+        <a href="#" class="btn-custom">Tìm hiểu thêm</a>
+        <a href="#" class="btn-custom btn-secondary">Mua ngay</a>
+        </div>
+        <img src="./image/x82prohe cosmatic.png" alt="X82 ProHe Phone">
+      </section>
+
+      <section class="container-fluid product-grid">
+        <div class="row g-3">
+          <div class="col-md-6 section section-small bg-light-grey">
+            <div class="content">
+              <h2>R5 Ultra</h2>
+              <p class="lead-text">Mang tính cá nhân, mạnh mẽ.</p>
+              <a href="./productdetail1.html" class="btn-custom">Tìm hiểu thêm</a>
+              <a href="#" class="btn-custom btn-secondary">Mua ngay</a>
+            </div>
+            <img src="./image/r5 ultra black.jpg" alt="R5 Ultra Mice">
+          </div>
+          <div class="col-md-6 section section-small bg-light-grey">
+            <div class="content">
+              <h2>Razer Hammerhead V3</h2>
+              <p class="lead-text">Âm thanh dễ chịu.</p>
+              <a href="#" class="btn-custom">Tìm hiểu thêm</a>
+              <a href="#" class="btn-custom btn-secondary">Mua ngay</a>
+            </div>
+            <img src="./image/tai nghe có dây ôm sát tai razer.webp" alt="Razer Hammerhead V3">
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid product-grid">
+        <div class="row g-3">
+          <div class="col-md-6 section section-small dark-section">
+            <div class="content text-white">
+              <h2>Xbox Pro</h2>
+              <p class="lead-text">Siêu mạnh với chip X123.</p>
+              <a href="#" class="btn-custom btn-light-overlay">Tìm hiểu thêm</a>
+              <a href="#" class="btn-custom btn-secondary-light">Mua ngay</a>
+            </div>
+            <img src="./image/xbox.jpg" alt="Xbox Pro">
+          </div>
+          <div class="col-md-6 section section-small dark-section">
+            <div class="content text-white">
+              <h2>Galaxy Tab S10 Series</h2>
+              <p class="lead-text">Hiệu năng vượt trội, bức phá mọi giới hạn.</p>
+              <a href="#" class="btn-custom btn-light-overlay">Tìm hiểu thêm</a>
+              <a href="#" class="btn-custom btn-secondary-light">Mua ngay</a>
+            </div>
+            <img src="./image/galaxy tab 10 series.webp" alt="Galaxy Tab S10 Series">
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid product-grid">
+        <div class="row g-3">
+          <div class="col-md-4 section-image-only">
+            <img src="./image/tay cầm 1.jpg" alt="Tay Cầm 1">
+          </div>
+          <div class="col-md-4 section-image-only">
+            <img src="./image/tay câm2.jpg" alt="Tay Cầm 2">
+          </div>
+          <div class="col-md-4 section-image-only">
+            <img src="./image/tay cầm 3.jpg" alt="Tay Cầm 3">
+          </div>
+        </div>
+      </section>
+      
+      <section class="container my-5 featured-products">
+        <h2 class="section-title">Sản phẩm nổi bật</h2>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card product-card">
+              <img src="./image/razer minecraft headphone.webp" alt="Razer Minecraft Headphone" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Tai nghe Razer x Minecraft Limited Edition</h5>
+                <p class="card-text price">$1999</p>
+                <a href="./productdetail1.html" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card product-card">
+              <img src="./image/PS5.jpg" alt="Ps5 Pro" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Ps5 Pro</h5>
+                <p class="card-text price">$499</p>
+                <a href="#" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card product-card">
+              <img src="./image/KEYBOARD ATTCK.webp" alt="Attack Shark X75" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">The ATTACK SHARK X75 mechanical keyboard</h5>
+                <p class="card-text price">$99</p>
+                <a href="#" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="promo-footer">
+        <ol>
+          <li>
+            Từ ngày 10 tháng 7 năm 2025 đến ngày 30 tháng 9 năm 2025, Người Mua Đủ Điều Kiện có thể nhận được Ưu Đãi
+            Tiết Kiệm khi mua một Sản Phẩm Đủ Điều Kiện và lựa chọn một Sản Phẩm Khuyến Mãi tại Địa Điểm Thỏa Mãn Điều
+            Kiện. Mỗi Người Mua Đủ Điều Kiện chỉ được mua một Sản Phẩm Khuyến Mãi cùng với một Sản Phẩm Đủ Điều Kiện. Ưu
+            đãi này tùy thuộc vào tình trạng hàng sẵn có. Các điều khoản và điều kiện được nêu <a href="#">tại đây</a>
+            áp dụng đối với ưu đãi này.
+          </li>
+          <li>
+            Các tính năng Kiểm Tra Thính Giác và Trợ Thính được hỗ trợ trên wbe chạy vi chương trình mới nhất
+            ghép nối với Sản phẩm tương thích chạy trên chip mới trở lên <a href="#">Xem danh sách đầy đủ</a>.
+          </li>
+        </ol>
+      </div>
+
+      <section class="product-categories">
+        <div class="container">
+          <h2>Danh Mục Mua Sắm</h2>
+          <div class="categories-grid">
+            <div class="category">
+              <h3>Attack Shark</h3>
+              <ul>
+                <li><a href="#">Bàn phím</a></li>
+                <li><a href="#">Chuột</a></li>
+                <li><a href="#">Lót bàn</a></li>
+                <li><a href="#">Tai nghe</a></li>
+                <li><a href="#">Móc khóa</a></li>
+                <li><a href="#">Gấu bông</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Sony</h3>
+              <ul>
+                <li><a href="#">Máy massage </a></li>
+                <li><a href="#">Play Station 5</a></li>
+                <li><a href="#">Tay cầm Ps5</a></li>
+                <li><a href="#">Tai nghe ko dây</a></li>
+                <li><a href="#">Máy ảnh</a></li>
+                <li><a href="#">Ổ SSD</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Razer</h3>
+              <ul>
+                <li><a href="#">Bàn phím</a></li>
+                <li><a href="#">Chuột</a></li>
+                <li><a href="#">Tai nghe</a></li>
+                <li><a href="#">Microphone</a></li>
+                <li><a href="#">Lót bàn</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Watch</h3>
+              <ul>
+                <li><a href="#">Apple Watch Ultra 2</a></li>
+                <li><a href="#">Samsung Galaxy Watch 4</a></li>
+                <li><a href="#">Casio k540 pro</a></li>
+                <li><a href="#">Dây đeo</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Sale</h3>
+              <ul>
+                <li><a href="#">AirPods Pro</a></li>
+                <li><a href="#">Chuột Realmac</a></li>
+                <li><a href="#">Bàn phím AKOK 5075B</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Phụ Kiện</h3>
+              <ul>
+                <li><a href="#">Ốp lưng & Bao da</a></li>
+                <li><a href="#">Dây cáp & Sạc</a></li>
+                <li><a href="#">Bàn phím & Chuột</a></li>
+                <li><a href="#">Tai nghe</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,347 @@
+/*
+==================================================
+  CAROUSEL SECTION (HERO BANNER) - Styles Apple-like
+==================================================
+*/
+#heroCarousel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100vh; /* Chiếm toàn bộ chiều cao viewport */
+    overflow: hidden; 
+}
+
+#heroCarousel .carousel-item {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#heroCarousel .carousel-content-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#heroCarousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    /* transition sẽ được điều khiển bằng JS cho hiệu ứng parallax/zoom */
+}
+
+#heroCarousel .carousel-caption {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; /* Mặc định chữ trắng */
+    z-index: 10;
+    padding: 20px;
+    
+    /* Overlay Gradient giúp chữ dễ đọc trên mọi nền */
+    background: linear-gradient(to top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.1) 100%);
+}
+
+/* Kiểu dáng cho chữ */
+#heroCarousel .carousel-caption .title-large {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+#heroCarousel .carousel-caption .subtitle-large {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Vị trí ban đầu của các phần tử text (để JS tạo hiệu ứng Fade-in-up) */
+[data-animation] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Indicators */
+#heroCarousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    margin: 0 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#heroCarousel .carousel-indicators button.active {
+    background-color: #ffffff;
+    transform: scale(1.2);
+}
+
+/* Navigators (Prev/Next buttons) */
+#heroCarousel .carousel-control-prev-icon,
+#heroCarousel .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+
+/*
+==================================================
+  VIDEO SECTION
+==================================================
+*/
+.video-section {
+    padding: 0;
+    margin-top: 10px; 
+}
+
+.video-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 80vh; 
+  display: block;
+  object-fit: cover;
+  border-radius: 0; 
+}
+
+.video-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 90%;
+}
+
+.video-text-overlay .title-large {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+.video-text-overlay .subtitle-large {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/*
+==================================================
+  CÁC SECTION SẢN PHẨM KHÁC (Banner ảnh)
+==================================================
+*/
+.section {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden;
+  color: #000000;
+  padding: 0;
+}
+
+.section-large {
+    min-height: 600px; 
+}
+
+.section-small {
+    min-height: 550px; 
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0; 
+  padding: 0;
+}
+
+.section-large img,
+.section-small img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Vị trí nội dung */
+.section .content {
+  position: absolute;
+  top: 60px; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  max-width: 90%;
+}
+
+.section h2 {
+  font-size: 3rem; 
+  font-weight: 700;
+}
+
+.lead-text {
+  font-size: 1.5rem; 
+  margin: 10px 0 20px 0;
+}
+
+/* Dark Section (Nền tối, chữ sáng) */
+.dark-section {
+  background-color: #111111; 
+  color: #ffffff;
+}
+
+.dark-section .content {
+    color: #ffffff;
+}
+
+/* Grid 3 cột chỉ ảnh */
+.section-image-only img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/*
+==================================================
+  SẢN PHẨM NỔI BẬT (Featured Products)
+==================================================
+*/
+.featured-products {
+  background-color: #FFFFFF;
+  padding: 30px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0a0a0a;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  height: 100%; 
+}
+
+.product-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .card-img-top {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover;
+  padding: 0;
+  border-radius: 0;
+}
+
+.product-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card .card-title {
+  color: #222;
+  font-weight: 500;
+  font-size: 1.1rem;
+  min-height: 40px;
+  margin-bottom: 0.75rem;
+}
+
+.product-card .price {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+
+/* Nút Mua ngay */
+.btn-buy {
+  background-color: #0071e3; /* Màu xanh Apple */
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 980px;
+  padding: 8px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid #0071e3;
+}
+
+.btn-buy:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+/*
+==================================================
+  RESPONSIVE CHO TRANG CHỦ
+==================================================
+*/
+@media (max-width: 992px) {
+    #heroCarousel {
+        height: 70vh; 
+    }
+    .title-large {
+      font-size: 3rem;
+    }
+
+    .subtitle-large {
+        font-size: 1.5rem;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
+
+    .lead-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+  /* Cho màn hình nhỏ, làm cho ảnh sản phẩm grid 2 cột hiển thị đầy đủ */
+  .col-md-6.section {
+    min-height: 400px; 
+    margin-bottom: 10px;
+  }
+  
+  .section .content {
+    top: 40px; 
+  }
+}

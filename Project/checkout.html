@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trang chủt</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- maincss -->
+
+    <link rel="stylesheet" href="./css/cart-checkout.css">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+
+    <body>
+        <!-- <header -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="./image/logo_web-01-01.png" alt="Logo" style="width: 130px;">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="./product1.html">Chuột</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Laptop</a></li>
+              <li class="nav-item"><a class="nav-link" href="./product2.html">Bàn phím</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tai nghe</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Nintendo</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Play Station</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Xbox</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tablet</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Watch</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Điện thoại</a></li>
+              <li class="nav-item ms-3"><a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href="./login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+        <div class="container mt-5">
+            <h2 class="mb-4">Thanh toán</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Thông tin khách hàng</h4>
+                        <div class="mb-3">
+                            <label class="form-label">Họ và tên</label>
+                            <input type="text" class="form-control" placeholder="Nhập tên vào đây">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="nhập gmail vào đây">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Số điện thoại</label>
+                            <input type="phone-number" class="form-control" placeholder="Nhập sốt đt">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Địa chỉ giao hàng</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h4>Phương thức thanh toán</h4>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="payment" id="cod" checked>
+                            <label class="form-check-label" for="cod">Thanh toán khi nhận hàng (COD)</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="payment" id="bank">
+                            <label class="form-check-label" for="bank">Chuyển khoản ngân hàng</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="payment" id="momo">
+                            <label class="form-check-label" for="momo">Ví MoMo</label>
+                        </div>
+
+                        <h4 class="mt-4">Tóm tắt đơn hàng</h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>PlayStation 5</span> <strong>14,000,000₫</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Razer Mouse x2</span> <strong>2,400,000₫</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between fw-bold">
+                                <span>Tổng cộng</span> <span class="text-danger">16,400,000₫</span>
+                            </li>
+                        </ul>
+
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Xác nhận thanh toán</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+         <!-- bostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+    </body>
+
+</html>

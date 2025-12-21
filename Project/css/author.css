@@ -1,0 +1,87 @@
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #0071e3;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 113, 227, 0.2);
+}
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 18px;
+}
+
+.checkbox-group {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.checkbox-group a {
+    color: #0071e3;
+    text-decoration: none;
+}
+
+.btn-login {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0071e3;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 980px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.redirect-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.redirect-text a {
+  color: #0071e3;
+  font-weight: 500;
+  text-decoration: none;
+}
