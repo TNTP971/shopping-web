@@ -1,3 +1,4 @@
+//Đảm bảo toàn bộ mã JavaScript chỉ chạy sau khi trình duyệt đã tải xong mã HTML
 document.addEventListener('DOMContentLoaded', () => {
 
     // Hàm lỗi chung 
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Hàm kiểm tra Email hợp lệ
+    //Biến emailRegex là một mẫu ký tự dùng để kiểm tra xem chuỗi nhập vào có đúng định dạng email
     const isValidEmail = (email) => {
         const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return emailRegex.test(String(email).toLowerCase());
@@ -46,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Hàm lưu mảng người dùng vào Local Storage
+    //Hàm này có nhiệm vụ lấy một danh sách (mảng) người dùng đang ở dạng bộ nhớ tạm của JavaScript và cất vào trong ổ cứng của trình duyệt (Local Storage).
     const saveUsers = (users) => {
         localStorage.setItem('users', JSON.stringify(users));
     };
